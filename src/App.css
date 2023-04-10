@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+table {
+  margin: 0 auto;
+  background: blue;
+}
+
+.button {
+  border: 1px solid blue;
+  color: blue;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.tile {
+  height: 80px;
+  width: 80px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.open {
+  background-color: #FFF;
+}
+
+.circle {
+  border-radius: 100px;
+  height: 65px;
+  width: 65px;
+}
+
+.player1 {
+  background-color: red;
+  transition: background-color 0.25s;
+}
+
+.player2 {
+  background-color: yellow;
+  transition: background-color 0.25s;
+}
